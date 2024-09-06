@@ -1,0 +1,14 @@
+ What is media query in css
+
+Media queries in css allow you to apply different styles based on different devices screen sizes  orientations  and even 
+device types
+
+ (Max width: 1024px)
+ (min width: 768px)
+ (max height: 800px)
+ (min height: 600px)
+
+some common device screen sizes to target with media queries are:
+. Mobile devices(smartphones): max-width:768px
+. Tablets (ipads):min width:769pxand max-width1024px
+. Desktop computers:min-width:1024px

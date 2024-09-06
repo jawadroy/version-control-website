@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<link rel="stylesheet" type="text/css" href="malik.css">
+</head>
+<body>
+	<style type="text/css">
+		body{
+			background-image: url(slider-bg.jpg);
+			background-size: cover;
+			height: 100vh;
+			background-position: center;
+		}
+	</style>
+
+<nav>
+	<ul>
+		<li> <a href="http://www.google.com">Home</a> </li>
+		<li> <a href="#">Shop</a> </li>
+
+		<li> <a href="#">brand</a>
+			<ul>
+				<li> <a href="#">Oppo</a> </li>
+				<li> <a href="#">Apple</a> </li>
+				<li> <a href="#">tecno</a>
+					<ul>
+						<li> <a href="#">Oppo A9</a> </li>
+						<li> <a href="#">Oppo A51</a> </li>	
+						<li> <a href="https://en.wikipedia.org/wiki/Oppo_A9_2020">Oppo A20</a></li>		
+						<li> <a href="#">Oppo 25</a> </li>
+
+					</ul>		
+				</li>
+					
+				<li> <a href="#">Oppo 100</a> </li>					
+			</ul>	                                     
+		</li>
+
+		<li> <a href="#">service</a> </li>	
+
+		<li> <a href="#">about us</a> </li>
+
+		<li> <a href="#">Contact us</a> </li>
+	</ul>
+		
+
+</nav>
+
+<h1>Fashion  website</h1>
+
+</body>
+</html>

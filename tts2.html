@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div class="input-group">
+		<input type="text" id="inputText" placeholder="Enter text to convert">
+		<button onclick="speak()">Speak</button>
+	</div>
+
+	<script type="text/javascript">
+		function speak() {
+			var inputText = document.getElementById("inputText").value;
+
+
+
+
+			if('speechsynthesis' in window) {
+				var speech = new speechsynthesisUtterance();
+				speech.text = inputText;
+
+
+
+				speech.lang ='en-us';
+				speech.volume = 1;
+				speech.rate = 1;
+				speech.pitch = 1;
+
+
+
+
+
+				window.speechsynthesis.speak(speech);
+			} else {
+				alert('speech speechsynthesis is not supported in this browser.');
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML 5 Geolocatiom API</title>
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<p>click the button below to know both your latitudes and longitude</p>
+	<p> <button type="button" onclick="getlocation()">Click here</button></p>
+	<p id="sample"></p>
+	<script>
+		var  y = document.getElementById('sample');
+		function getlocation() {
+			if (navigator.geolocation) {
+				navigator.geolocation.get.getcurrentposition(showposition);
+			} else {
+				y.innerHTML = "your browser does not support geolocation API.";
+			}
+		}
+		function showposition(position) {
+			y.innerHTML = "Latitude: " + position.coords.latitude +
+				"<br>Longitude: " + position.coords.longitude
+		}
+	</script>
+
+</body>
+</html>

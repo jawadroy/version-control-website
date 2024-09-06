@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>New aniation</title>
+</head>
+<style type="text/css">
+	.box1{
+		background-color: black;
+		height: 610px;
+		width: 1320px;
+		animation-name: abc;
+		animation-duration: 20s;
+		animation-delay: 3s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes abc{
+		0%{
+			background-image: url(https://img.freepik.com/free-photo/nature-tranquil-beauty-reflected-calm-water-generative-ai_188544-12798.jpg?t=st=1714389049~exp=1714392649~hmac=0bfa14eab10975be623ef81d151c380afa82ddff8882b2b1a10109d6bccfe779&w=826);
+			background-size: cover;
+		}
+		25%{
+			background-image: url(https://img.freepik.com/premium-photo/lake-with-some-rocks-mountains-background_1169327-144597.jpg?w=740);
+			background-size: cover;
+		}
+		50%{
+			background-image:url(https://img.freepik.com/premium-photo/beautiful-mesmerizing-unique-landscape_941097-61320.jpg?w=826);
+			background-size: cover;
+		}
+		75%{
+			background-image: url(https://img.freepik.com/premium-photo/top-best-photo-lovely-wonderful-amazing-this-photo-take-this-picture-your-work-ai-generated_1089151-54425.jpg?w=740);
+			background-size: cover;
+		}
+		100%{
+			background-image: url(https://img.freepik.com/premium-photo/beautiful-mesmerizing-unique-landscape_941097-61740.jpg?w=826);
+		background-size: cover;
+		}
+	}
+
+	.box2{
+		height: 300px;
+		width: 300px;
+		animation-name: xyz;
+		animation-duration: 10s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes xyz{
+		0%{
+			margin-left: 0px;
+			margin-top: 0px;
+			background-color: darkblue;
+		}
+		25%{
+			margin-left: 200px;
+			margin-top: 0px;
+			background-color: red;
+		}
+		50%{
+			margin-left: 200px;
+			margin-top: 200px;
+			background-color: pink;
+		}
+		75%{
+			margin-left: 0px;
+			margin-top: 200px;
+			background-color: yellow;
+		}
+		100%{
+			margin-left: 0px;
+			margin-top: 10px;
+			background-color: darkgreen;
+		}
+	}
+</style>
+
+
+	
+
+<body>
+	<div class="box1"></div>
+	<br><br><br>
+	<div class="box2"></div>
+
+</body>
+</html>
